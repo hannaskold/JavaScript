@@ -1,0 +1,43 @@
+
+
+#div_left{
+    
+    width: 30%; 
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+    padding: 5%;    
+}
+
+#div_right{
+    width: 30%;
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+    padding: 5%;
+}
+
+#image{
+    max-width: 80%;
+    max-height: auto;
+    margin: auto;
+}
+
+#div_main{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(196, 139, 129);
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-family: 'futura PT';
+    font-size: 25px;
+}
+
+p, ul{
+    font-family: 'futura PT';
+    font-size: 15px;
+}
