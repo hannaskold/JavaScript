@@ -6,7 +6,7 @@
   "scripts": {
     "styles": "lessc StyleSheet.less distribution/StyleSheet.css",
     "bundle": "webpack",
-    "copyindex": "cp index.html distribution/index.html",
+    "copyindex": "cp Index.html distribution/index.html",
     "build": "npm run bundle && npm run styles && npm run copyindex"
   },
   "repository": {
