@@ -1,0 +1,30 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc StyleSheet.less distribution/StyleSheet.css",
+    "bundle": "webpack",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run styles && npm run copyindex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannaskold/JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannaskold/JavaScript/issues"
+  },
+  "homepage": "https://github.com/hannaskold/JavaScript#readme",
+  "devDependencies": {
+    "less": "^2.7.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+    
+  }
+}
